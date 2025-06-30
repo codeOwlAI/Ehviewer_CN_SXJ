@@ -30,7 +30,7 @@ android {
         //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 29
         versionCode 111
-        versionName "1.9.9.8"
+        versionName "1.9.9.9"
         vectorDrawables.useSupportLibrary = true
         resourceConfigurations += ['zh', 'zh-rCN', 'zh-rHK', 'zh-rTW', 'es', 'ja', 'ko', 'fr', 'de', 'th']
         testOptions.unitTests.includeAndroidResources = true
@@ -103,8 +103,8 @@ dependencies {
 
     // Add the dependencies for the Crashlytics and Analytics libraries
     // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-crashlytics:19.4.0'
-    implementation 'com.google.firebase:firebase-analytics:22.2.0'
+    implementation 'com.google.firebase:firebase-crashlytics:19.4.2'
+    implementation 'com.google.firebase:firebase-analytics:22.4.0'
 //    implementation 'com.google.firebase:firebase-analytics:21.5.1'
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
@@ -113,7 +113,7 @@ dependencies {
     implementation 'androidx.biometric:biometric:1.2.0-alpha01'
     implementation "androidx.browser:browser:1.3.0"
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation "androidx.fragment:fragment:1.8.5"
+    implementation "androidx.fragment:fragment:1.8.6"
     implementation "androidx.preference:preference-ktx:1.2.1"
     implementation 'androidx.recyclerview:recyclerview:1.2.0'
     implementation 'org.conscrypt:conscrypt-android:2.5.1'
@@ -166,6 +166,8 @@ dependencies {
 
     //事件通知
     implementation 'org.greenrobot:eventbus:3.3.1'
+    //loading组件
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
 
 
     testImplementation 'junit:junit:4.13.2'
@@ -173,7 +175,7 @@ dependencies {
     testImplementation 'org.jooq:joor:0.9.6'
 
     // https://mvnrepository.com/artifact/androidx.webkit/webkit
-    runtimeOnly group: 'androidx.webkit', name: 'webkit', version: '1.12.1'
+    runtimeOnly group: 'androidx.webkit', name: 'webkit', version: '1.13.0'
 
 }
 

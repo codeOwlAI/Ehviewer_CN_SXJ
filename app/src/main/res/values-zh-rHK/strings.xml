@@ -152,7 +152,9 @@
 
     <!-- Update -->
     <string name="update">更新</string>
+    <string name="update_fail">检查更新失败</string>
     <string name="update_plain">版本：%1$s\n大小：%2$s\n\n%3$s</string>
+    <string name="update_fail_info">点击 是 跳转至Github主页</string>
     <string name="update_to_date">EhViewer 已是最新版本</string>
     <string name="update_ignore">略過</string>
     <string name="no_updates_available">已是最新版本</string>
@@ -800,6 +802,7 @@
     <string name="can_not_use_this_tag">無法使用標籤</string>
     <string name="add_tag_dialog_title">新增標籤</string>
     <string name="tag_title">標籤欄</string>
+    <string name="subscription_success">%s成功</string>
 
     <string name="yes">是</string>
     <string name="cancel">取消</string>
